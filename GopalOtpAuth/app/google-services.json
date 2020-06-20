@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1036918318531",
+    "firebase_url": "https://gopalotpauth.firebaseio.com",
+    "project_id": "gopalotpauth",
+    "storage_bucket": "gopalotpauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036918318531:android:67fdbe2b491bebfc98c976",
+        "android_client_info": {
+          "package_name": "com.example.gopalotpauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036918318531-321ossc2hdqlb8jgcv90v925rfka3f9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gopalotpauth",
+            "certificate_hash": "3f877c5dfe7a0de2bded5aa354a371edaabd5a14"
+          }
+        },
+        {
+          "client_id": "1036918318531-4nev4th4cp6ueoj0j1gkkchr3eigkuic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCII3Rjfig4eQGKwpzZIv-Nq0vBg_O0S1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036918318531-4nev4th4cp6ueoj0j1gkkchr3eigkuic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

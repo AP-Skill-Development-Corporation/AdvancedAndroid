@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Firebase User Register\nwith email and password"
+      android:textSize="30sp"
+      android:gravity="center"
+      android:textColor="@color/colorPrimary"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter User Email Id"
+        android:textSize="20sp"
+        android:textColorHint="#000"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter User Password"
+        android:textSize="20sp"
+        android:textColorHint="#000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="registerhere"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Firebase signin with\nuser emailid and password"
+      android:textSize="25sp"
+      android:textColor="@color/colorPrimary"
+      android:gravity="center"/>
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/et1"
+      android:hint="Enter Registered User email id"
+      android:textColorHint="#000"/>
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/et2"
+      android:hint="Enter Your User Password"
+      android:textColorHint="#000"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Signin"
+      android:onClick="signinhere"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:textSize="25sp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/colorPrimary"
+      android:gravity="center"
+      android:text="Firebase forgot email Password"/>
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/resetemailid"
+      android:hint="Enter Registered Email Id"
+      android:textColorHint="#000"
+      />
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="resetpasswordemail"
+      android:onClick="reset"/>
+
+</LinearLayout>
