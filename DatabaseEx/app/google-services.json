@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "722741181045",
+    "firebase_url": "https://databaseexample-205f6.firebaseio.com",
+    "project_id": "databaseexample-205f6",
+    "storage_bucket": "databaseexample-205f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722741181045:android:5d98939231ff69a910d63c",
+        "android_client_info": {
+          "package_name": "com.example.cherry.databaseex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722741181045-vn7rasl00uv10op8o9ai46jdc8f3v7r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_RbcFzkBEY0d6IYiInRZthfmd-DydYHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722741181045-vn7rasl00uv10op8o9ai46jdc8f3v7r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
