@@ -1,0 +1,2 @@
+rootProject.name='SensorsAPI'
+include ':app'

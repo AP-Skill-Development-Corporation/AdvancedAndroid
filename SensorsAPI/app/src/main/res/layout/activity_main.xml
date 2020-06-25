@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shake Sensor"
+        android:textSize="25sp"
+        android:textColor="#3F51B5"
+        android:id="@+id/shake"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Touch Sensor"
+        android:textSize="25sp"
+        android:textColor="#3F51B5"
+        android:id="@+id/touch"
+        android:layout_marginTop="10dp"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light Sensor"
+        android:textSize="25sp"
+        android:textColor="#3F51B5"
+        android:id="@+id/light"
+        android:layout_marginTop="10dp"/>
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flip Sensor"
+        android:textSize="25sp"
+        android:textColor="#3F51B5"
+        android:id="@+id/flip"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Sensor Detected"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:background="#673AB7"
+        android:gravity="center"
+        android:id="@+id/sensor"
+        />
+
+</LinearLayout>
